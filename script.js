@@ -1,4 +1,6 @@
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  alert('Thanks for reaching out!');
+// Simple form submit handler
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been sent successfully.");
+    this.reset();
 });

@@ -1,39 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sai's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Hello, I'm Sai</h1>
-    <p>Web Developer | DevOps Enthusiast</p>
-  </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
-    </div>
-    <div class="project">
-      <h3>Dockerized Web App</h3>
-      <p>Static site deployed via Docker and Jenkins pipeline.</p>
-    </div>
-  </section>
+    <header>
+        <h1>Sai Charan - DevOps Engineer</h1>
+        <p>Building Automation & Scalable Solutions for Modern Applications</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Sai Charan, a DevOps Engineer passionate about optimizing workflows
+            and delivering scalable, automated solutions. I specialize in Jenkins, Docker,
+            Kubernetes, Terraform, and cloud platforms like AWS and Azure.
+        </p>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>CI/CD - Jenkins, GitHub Actions</li>
+            <li>Containerization - Docker</li>
+            <li>Orchestration - Kubernetes</li>
+            <li>Infrastructure as Code - Terraform</li>
+            <li>Cloud Platforms - AWS, Azure</li>
+            <li>Monitoring - Prometheus, Grafana</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Bank Application Deployment</h3>
+            <p>
+                Deployed a three-tier banking application using Docker, Kubernetes, and MySQL
+                with high availability and security.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Jenkins CI/CD Pipeline</h3>
+            <p>
+                Implemented a CI/CD pipeline integrating Jenkins, SonarQube, Trivy,
+                and Docker for automated and secure deployments.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>AWS Infrastructure Automation</h3>
+            <p>
+                Automated EC2 provisioning and application deployment using
+                Terraform and CloudFormation.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Sai Charan | DevOps Engineer Portfolio | 
+            <a href="#about">Back to Top</a>
+        </p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
 </body>
 </html>
