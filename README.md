@@ -104,7 +104,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-username/portfolio-project.git'
+                git 'https://github.com/Saicharan105/Sai-charan-Portfolio.git'
             }
         }
 
