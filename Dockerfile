@@ -1,4 +1,4 @@
 FROM nginx:alpine
-COPY . /urs/share/ngnix/html
+COPY . /usr/share/nginx/html
 EXPOSE 80
-CMD ['ngnix', '-g', 'deamon off;']
+CMD ["nginx", "-g", "daemon off;"]
